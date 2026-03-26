@@ -113,10 +113,32 @@ a:visited {
 	width: 100%;
 }
 
+.contact {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .skill-type {
 	position: relative;
 	left: 25px;
 	color: #61221d;
+}
+
+.social img {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0px;
+}
+
+.social li {
+	margin: 0 5px 5px 5px;
+}
+
+ul.social {
+	margin: 0;
+	padding: 0;
+	height: 20px;
 }
 
 @supports (initial-letter: 2) {
