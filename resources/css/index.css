@@ -37,7 +37,7 @@ h2 {
 	font-weight: 400;
 	font-style: italic;
 	font-size: 27px;
-	color: #61221d;
+	color: hsl(4.41, 53.97%, 24.71%);
 }
 
 h3 {
@@ -58,7 +58,7 @@ footer h4 {
 	font-style: italic;
 	margin: 5px auto;
 	width: 100%;
-	color: #61221d;
+	color: hsl(4.41, 53.97%, 24.71%);
 }
 
 p {
@@ -100,15 +100,15 @@ footer li {
 }
 
 hr {
-	color: #2721a1;
+	color: hsl(244.41, 53.97%, 24.71%);
 }
 
 a {
-	color: #2721a1;
+	color: hsl(244.41, 53.97%, 24.71%);
 }
 
 a:visited {
-	color: #61221d;
+	color: hsl(4.41, 53.97%, 24.71%);
 }
 
 .banner {
@@ -127,7 +127,7 @@ a:visited {
 .skill-type {
 	position: relative;
 	left: 25px;
-	color: #61221d;
+	color: hsl(4.41, 53.97%, 24.71%);
 }
 
 .social img {
@@ -151,6 +151,6 @@ ul.social {
 	.initial::first-letter {
 		initial-letter: 2;
 		margin-right: 7px;
-		color: #61221d;
+		color: hsl(4.41, 53.97%, 24.71%);
 	}
 }
