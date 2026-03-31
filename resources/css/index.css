@@ -1,5 +1,5 @@
 * {
-	font-family: Georgia;
+	font-family: Georgia, 'Times New Roman';
 	background-color: ivory;
 	text-align: justify;
 	/** border: 1px solid red; **/
@@ -22,7 +22,7 @@ main {
 }
 
 h1 {
-	font-family: Garamond;
+	font-family: Garamond, Georgia, 'Times New Roman';
 	text-align: center;
 	margin-bottom: 5px;
 	font-size: 35px;
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-	font-family: Garamond;
+	font-family: Garamond, Georgia, 'Times New Roman';
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -54,7 +54,7 @@ h4 {
 footer h4 {
 	text-align: center;
 	font-weight: 400;
-	font-family: Garamond;
+	font-family: Garamond, Georgia, 'Times New Roman';
 	font-style: italic;
 	margin: 5px auto;
 	width: 100%;
