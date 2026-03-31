@@ -1,5 +1,5 @@
 * {
-	font-family: Georgia, 'Times New Roman';
+	font-family: 'PT Serif', Georgia, 'Times New Roman';
 	background-color: ivory;
 	text-align: justify;
 	/** border: 1px solid red; **/
@@ -22,39 +22,46 @@ main {
 }
 
 h1 {
-	font-family: Garamond, Georgia, 'Times New Roman';
+	font-family: 'adobe-caslon-pro', Garamond, Georgia, 'Times New Roman';
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	font-size: 35px;
 	font-variant-caps: small-caps;
+	padding-bottom: 0;
+	height: 50px;
+
 }
 
 h2 {
-	font-family: Garamond, Georgia, 'Times New Roman';
+	font-family: 'adobe-caslon-pro', Garamond, Georgia, 'Times New Roman';
 	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
 	font-weight: 400;
+	height: 38px;
 	font-style: italic;
 	font-size: 27px;
 	color: hsl(4.41, 53.97%, 24.71%);
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 24px;
 	font-variant-caps: small-caps;
 }
 
 h4 {
-	font-size: 17px;
-	font-weight: 400;
+	font-family: 'adobe-caslon-pro';
+	font-size: 20px;
+	font-weight: 700;
+	height: 22px;
 	font-style: italic;
 }
 
 footer h4 {
 	text-align: center;
 	font-weight: 400;
-	font-family: Garamond, Georgia, 'Times New Roman';
+	font-family: 'adobe-caslon-pro', Garamond, Georgia, 'Times New Roman';
 	font-style: italic;
 	margin: 5px auto;
 	width: 100%;
@@ -127,7 +134,12 @@ a:visited {
 .skill-type {
 	position: relative;
 	left: 25px;
+	margin-bottom: 11px;
 	color: hsl(4.41, 53.97%, 24.71%);
+}
+
+h4.skill-type {
+	margin-top: 35px;
 }
 
 .social img {
@@ -150,7 +162,7 @@ ul.social {
 @supports (initial-letter: 2) {
 	.initial::first-letter {
 		initial-letter: 2;
-		margin-right: 7px;
+		margin-right: 9px;
 		color: hsl(4.41, 53.97%, 24.71%);
 	}
 }
