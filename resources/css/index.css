@@ -21,6 +21,10 @@ main {
 	margin-right: 15%;
 }
 
+main p {
+	line-height: 1.4;
+}
+
 h1 {
 	font-family: 'adobe-caslon-pro', Garamond, Georgia, 'Times New Roman';
 	text-align: center;
@@ -70,7 +74,6 @@ footer h4 {
 
 p {
 	font-size: 17px;
-	line-height: 1.25;
 }
 
 ul {
