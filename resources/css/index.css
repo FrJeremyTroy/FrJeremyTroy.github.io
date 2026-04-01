@@ -109,8 +109,14 @@ footer li {
 	text-align: center;
 }
 
+footer h4 {
+	font-size: 17px;
+	margin-top: 0;
+}
+
 hr {
 	color: hsl(244.41, 53.97%, 24.71%);
+	margin-bottom: 0px;
 }
 
 a {
